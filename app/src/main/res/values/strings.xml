@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">UpdatedTictactoe</string>
+    <string name="action_settings">Settings</string>
+    <string name="invite">Hey Guys,Let\'s Play Tic-Tac-Toe</string>
+    <string name="about">About Tic-Tac-Toe</string>
+    <string name="single">SINGLE PLAYER</string>
+    <string name="multi">MULTI PLAYER</string>
+    <string name="title_activity_about_activity">About_activity</string>
+    <string name="hello"> TicTacToeGame</string>
+    <string name="first_human">YOU GO FIRST!</string>
+    <string name="player1">PLAYER ONE\'S TURN</string>
+    <string name="player2">PLAYER TWO\'S TURN</string>
+    <string name="turn_human">YOUR TURN</string>
+    <string name="turn_computer">ANDROIDS TURN!</string>
+    <string name="result_tie">ITS A TIE</string>
+    <string name="result_humanwins">YOU WON</string>
+    <string name="result_computerwins">COMPUTER WON</string>
+    <string name="player1win">PLAYER ONE WIN\'S</string>
+    <string name="player2win">PLAYER TWO WIN\'S</string>
+    <string name="one">1</string>
+    <string name="multipl_one">PLAYER 1 :</string>
+    <string name="multipl_two">PLAYER 2 :</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="info">INFO</string>
+    <string name="human">YOU :</string>
+    <string name="ties">TIES :</string>
+    <string name="android">ANDROID :</string>
+    <string name="title_activity_multi_activity">Multi_activity</string>
+    <string name="title_activity_second_activity">Second_activity</string>
+
+</resources>

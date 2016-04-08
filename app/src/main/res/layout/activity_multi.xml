@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingTop="40dp"
+    android:background="@drawable/backg2">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_marginTop="40dp"
+        android:gravity="top" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            >
+
+            <Button
+                android:id="@+id/one"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:text="@string/one"
+                android:textSize="60dp"
+                />
+
+            <Button
+                android:id="@+id/two"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:text="@string/two"
+                android:textSize="60dp"
+                />
+
+            <Button
+                android:id="@+id/three"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:text="@string/three"
+                android:textSize="60dp"
+                />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <Button
+                android:id="@+id/four"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:text="@string/four"
+                android:textSize="60dp" />
+
+            <Button
+                android:id="@+id/five"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:text="@string/five"
+                android:textSize="60dp" />
+
+            <Button
+                android:id="@+id/six"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:text="@string/six"
+                android:textSize="60dp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <Button
+                android:id="@+id/seven"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:text="@string/seven"
+                android:textSize="60dp" />
+
+            <Button
+                android:id="@+id/eight"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:text="@string/eight"
+                android:textSize="60dp" />
+
+            <Button
+                android:id="@+id/nine"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:text="@string/nine"
+                android:textSize="60dp" />
+        </TableRow>
+    </TableLayout>
+
+
+
+
+
+
+
+
+    <TextView
+        android:id="@+id/information"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:text="@string/info"
+        android:textSize="25dp"
+        android:background="#eef"/>
+
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp" >
+
+
+
+
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:background="#ffffdd">
+
+            <TextView
+                android:id="@+id/human"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="6dp"
+                android:text="@string/multipl_one" />
+
+            <TextView
+                android:id="@+id/humancount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="6dp" />
+
+            <TextView
+                android:id="@+id/ties"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="6dp"
+                android:text="@string/ties" />
+
+            <TextView
+                android:id="@+id/tiescount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="6dp" />
+
+            <TextView
+                android:id="@+id/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="6dp"
+                android:text="@string/multipl_two" />
+
+            <TextView
+                android:id="@+id/androidcount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="6dp" />
+        </TableRow>
+
+    </TableLayout>
+
+
+
+
+
+
+    <Button
+        android:id="@+id/newgamebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:text="Click to play again" />
+
+</LinearLayout>
